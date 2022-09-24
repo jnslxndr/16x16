@@ -23,8 +23,9 @@ function setup() {
   // Note: Not needed, `grid` is already initialised; TODO: this chould chnage to user initialisation.
   // setupGrid(16, 16)
 
+  useMode("ripples")
   // useMode("Long Sequence")
-  useMode("Random Access")
+  // useMode("Random Access")
   //useMode("Prompt Mode")
   //useMode("Reflect Mode")
   //useMode("Just Write")
@@ -108,6 +109,6 @@ const renderGrid = (x = 0, y = 0) => {
 
   fill(0, 192, 0)
   textSize(fontSize * 0.75)
-  text(`16x16: ${getModeName(grid)}`, 0, unitOf(16) + fontSize / 2)
+  text(`16x16: ${modeDescription(grid)}`, 0, unitOf(16) + fontSize / 2)
   pop()
 }

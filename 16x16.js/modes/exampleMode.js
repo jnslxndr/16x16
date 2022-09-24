@@ -1,17 +1,11 @@
 // A mode that does nothing
-defineMode("Nothing", grid => {
+defineMode("Example Mode", grid => {
   return {
-    preload() {
-
-    },
-    init() {
-
-    },
-    onKey(key) {
-
-    },
-    update(x, y, index) {
-
-    },
+    dscription: "This is just an example",
+    preload() { },
+    init() { },
+    onKey(key) { },
+    update(x, y, index) { },
+    draw() {},
   }
 })
