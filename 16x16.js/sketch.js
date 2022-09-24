@@ -23,8 +23,8 @@ function setup() {
   // Note: Not needed, `grid` is already initialised; TODO: this chould chnage to user initialisation.
   // setupGrid(16, 16)
 
-  useMode("ripples")
-  // useMode("Long Sequence")
+  // useMode("ripples")
+  useMode("Long Sequence")
   // useMode("Random Access")
   //useMode("Prompt Mode")
   //useMode("Reflect Mode")
